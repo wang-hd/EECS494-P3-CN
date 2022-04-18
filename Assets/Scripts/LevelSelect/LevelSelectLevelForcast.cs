@@ -7,9 +7,9 @@ public class LevelSelectLevelForcast : MonoBehaviour
     Text forecast_text;
     static List<string> dummy_words = new List<string>
     {
-        "Super super tare fish is rarer than super rare fish.",
-        "You will get rewards for hunting down dangerous fishes.",
-        "Who knows what will happen after you explore the whole map.",
+        "超超稀有的鱼比超稀有的鱼更稀有。",
+        "危险的鱼给你的收获也越多。",
+        "把所有地区都探索一遍之后会发生什么？谁知道呢。",
     };
 
     void Start()
@@ -19,28 +19,28 @@ public class LevelSelectLevelForcast : MonoBehaviour
         switch (StaticData.day)
         {
             case 1:
-                forecast_text.text = "Future Gadget Laboratory will be unlocked in two days.";
+                forecast_text.text = "未来道具研究所 将在2天后解锁。";
                 break;
             case 2:
-                forecast_text.text = "Future Gadget Laboratory will be unlocked in one day.";
+                forecast_text.text = "未来道具研究所 将在1天后解锁。";
                 break;
             case 3:
-                forecast_text.text = "Black Dragon Harbor will be unlocked in two days.";
+                forecast_text.text = "黑龙港 将在2天后解锁。";
                 break;
             case 4:
-                forecast_text.text = "Black Dragon Harbor will be unlocked in one day.";
+                forecast_text.text = "黑龙港 将在1天后解锁。";
                 break;
             case 5:
-                forecast_text.text = "State Lake will be unlocked in two days.";
+                forecast_text.text = "州湖 将在2天后解锁。";
                 break;
             case 6:
-                forecast_text.text = "State Lake will be unlocked in one day.";
+                forecast_text.text = "州湖 将在1天后解锁。";
                 break;
             case 7:
-                forecast_text.text = "Upper Sea will be unlocked in two days.";
+                forecast_text.text = "前海 将在2天后解锁。";
                 break;
             case 8:
-                forecast_text.text = "Upper Sea will be unlocked in one day.";
+                forecast_text.text = "前海 将在1天后解锁。";
                 break;
             default:
                 forecast_text.text = dummy_words[Random.Range(0,dummy_words.Count-1)];

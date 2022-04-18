@@ -71,7 +71,7 @@ public class StartGame : MonoBehaviour
         StaticData.nextScene = "Main Scene";
 
         Audio.Play();
-        story_text.text = "About 8 years ago, a nuclear war ruined the world.";
+        story_text.text = "大约8年之前，\n核战争毁灭了世界。";
         yield return new WaitForSeconds(2f);
         Audio.Stop();
         story_text.text = "";
@@ -91,7 +91,7 @@ public class StartGame : MonoBehaviour
         world_end_image.SetActive(false);
 
         Audio.Play();
-        story_text.text = "My name is Stein. Ran to this island to avoid the war.";
+        story_text.text = "我的名字是Stein。\n为了逃离战争来到这里。";
         yield return new WaitForSeconds(2f);
         Audio.Stop();
 
@@ -101,7 +101,7 @@ public class StartGame : MonoBehaviour
         Audio.Stop();
 
         Audio.Play();
-        story_text.text = "And found there's not much resources except fish.";
+        story_text.text = "然后发现这里的物资非常有限...\n除了鱼还算多。";
         yield return new WaitForSeconds(1f);
         Audio.Stop();
 
@@ -143,7 +143,7 @@ public class StartGame : MonoBehaviour
         foreach (GameObject text in guide_texts) text.SetActive(false);
 
         Audio.Play();
-        story_text.text = "...Once Again";
+        story_text.text = "...刚才那次不算";
 
         yield return new WaitForSeconds(1f);
         Audio.Stop();
@@ -163,22 +163,22 @@ public class StartGame : MonoBehaviour
         is_showing_guide = false;
         foreach (GameObject text in guide_texts) text.SetActive(false);
         Audio.Play();
-        story_text.text = "Just like that.";
+        story_text.text = "就像刚才那样。";
         yield return new WaitForSeconds(1f);
 
         story_text.text = "";
         yield return new WaitForSeconds(0.5f);
         
-        story_text.text = "I don't know if the war has ended.";
+        story_text.text = "不知道外面的战况怎么样了...";
         yield return new WaitForSeconds(2f);
 
-        story_text.text = "Let me just persist a little bit longer,";
+        story_text.text = "不如让我再多撑几天...";
         yield return new WaitForSeconds(2f);
 
-        story_text.text = "Let's say,";
+        story_text.text = "要不就，";
         yield return new WaitForSeconds(1f);
 
-        story_text.text = "Let's say,\nTen days.";
+        story_text.text = "要不就，\n10天吧";
         yield return new WaitForSeconds(2f);
 
         story_text.text = "";

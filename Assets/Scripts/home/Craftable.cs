@@ -88,12 +88,12 @@ public class Craftable : MonoBehaviour
     {
         if (StaticData.rod_unlock_status[selected_rod_index]) 
         {
-            rod_unlock_requirement.text = "Already unlocked";
+            rod_unlock_requirement.text = "已解锁";
             rod_unlock_value.text = "";
         }
         else 
         {
-            rod_unlock_requirement.text = "Unlock Require: ";
+            rod_unlock_requirement.text = "解锁需要: ";
             rod_unlock_value.text = "x " + StaticData.rod_unlock_values[selected_rod_index] + " (" +
                 StaticData.bones + ")";
         }
@@ -108,7 +108,7 @@ public class Craftable : MonoBehaviour
             {
                 StaticData.bones -= StaticData.rod_unlock_values[selected_rod_index];
                 StaticData.rod_unlock_status[selected_rod_index] = true;
-                rod_unlock_requirement.text = "Already unlocked";
+                rod_unlock_requirement.text = "已解锁";
                 rod_unlock_value.text = "";
                 return true;
             }

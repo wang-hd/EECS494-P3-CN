@@ -40,10 +40,10 @@ public class TutorialController : MonoBehaviour
         {"time", new Vector3(300, 300, 0)}, {"task", new Vector3(-1200, 100)},
     };
     Dictionary<string, string> tutorial_texts = new Dictionary<string, string> {
-        {"satiety", "Energy will decrease over time.\nEat fish to restore energy."},
-        {"health", "You'll die if health drop to zero.\nSome fish can help restore health."},
-        {"time", "One day ends at 24:00.\nOr you can end it at any time by clicking the home button."},
-        {"task", "Completing tasks unlocks new stories.\nTasks will affect ending of this game."},
+        {"satiety", "能量会随时间流逝。\n吃鱼可以恢复能量。"},
+        {"health", "如果生命值降到0，游戏结束。\n有些鱼可以恢复生命值。"},
+        {"time", "每天24:00结束。\n按右下角的Home键可以随时回家。"},
+        {"task", "完成任务会解锁新的故事。\n任务的完成度也会影响游戏的结局。"},
     };
     //Dictionary<int, Quaternion> rotations = new Dictionary<int, Quaternion> {
     //    {1, Quaternion.identity},

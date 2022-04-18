@@ -17,7 +17,7 @@ public class TransitionControll : MonoBehaviour
         if (StaticData.usage == TransitionScreenUsage.to_dead)
         {
             StaticData.Refresh();
-            StaticData.message = "You Are Dead. You Keep Something, But You Can Not Keep Everything.\nWhat is lost?";
+            StaticData.message = "你死了。\n一些道具会保留，\n而另一些不会。";
             Audio.clip = die_audio;
             Audio.Play();
             NextDayPanel.SetActive(false);

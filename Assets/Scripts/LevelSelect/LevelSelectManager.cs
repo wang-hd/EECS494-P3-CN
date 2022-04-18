@@ -59,25 +59,25 @@ public class LevelSelectManager : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha2))
             {
                 UnlockLevel(StaticData.getLevelNameByLevelIdx(1));
-                EventBus.Publish<ToastRequest>(new ToastRequest("Future Gadget Laboratory unlocked", 3.0f, false, false, false));
+                EventBus.Publish<ToastRequest>(new ToastRequest("未来道具研究所 已解锁", 3.0f, false, false, false));
                 StaticData.day = 3;
             }
             if (Input.GetKeyDown(KeyCode.Alpha3))
             {
                 UnlockLevel(StaticData.getLevelNameByLevelIdx(2));
-                EventBus.Publish<ToastRequest>(new ToastRequest("Black Dragon Harbor unlocked", 3.0f, false, false, false));
+                EventBus.Publish<ToastRequest>(new ToastRequest("黑龙港 已解锁", 3.0f, false, false, false));
                 StaticData.day = 5;
             }
             if (Input.GetKeyDown(KeyCode.Alpha4))
             {
                 UnlockLevel(StaticData.getLevelNameByLevelIdx(3));
-                EventBus.Publish<ToastRequest>(new ToastRequest("State Lake unlocked", 3.0f, false, false, false));
+                EventBus.Publish<ToastRequest>(new ToastRequest("州湖 已解锁", 3.0f, false, false, false));
                 StaticData.day = 7;
             }
             if (Input.GetKeyDown(KeyCode.Alpha5))
             {
                 UnlockLevel(StaticData.getLevelNameByLevelIdx(4));
-                EventBus.Publish<ToastRequest>(new ToastRequest("Upper Sea unlocked", 3.0f, false, false, false));
+                EventBus.Publish<ToastRequest>(new ToastRequest("前海 已解锁", 3.0f, false, false, false));
                 StaticData.day = 9;
             }
         }

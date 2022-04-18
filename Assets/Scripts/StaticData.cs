@@ -67,14 +67,14 @@ public static class StaticData
     public static int current_rod_index = 0;
     public static List<string> rod_descriptions = new List<string>
     {
-        "K-11B: Most common fishing rod.\nSuitable for various fishing situations.",
-        "K-1C: Great for catching large fishes.",
-        "Axiom-9000: A rod for lazy people, but keep in mind that laziness has consequences",
-        "K-1D: Great for catching small fishes.",
-        "K-11C: Improved version of K-11B.",
-        "Horizontal-001: This rod really likes the smallest fish.",
-        "Ganesha: Want more fishes? Try this one.",
-        "Reverse-zero: This rod is built with anti-gravity material. This new technology is still experimental."
+        "K-11B: 初始鱼竿。\n适用于大多数钓鱼场合。",
+        "K-1C: 对钓上大鱼很有帮助。",
+        "Axiom-9000: 为懒人量身定制的鱼竿。不过要小心懒可能会付出代价。",
+        "K-1D: 对钓上小鱼很有帮助。",
+        "K-11C: K-11B的上位替代产品。",
+        "Horizontal-001: 这个超强的鱼竿重新定义了钓鱼。",
+        "Ganesha: 想要一箭双雕吗？来试试这个鱼竿吧。",
+        "Reverse-zero: 这个鱼竿用反重力材料制成。这种新材料目前噱头的成分居多。"
     };
 
     public static void setIndexSize(int size)
@@ -111,11 +111,11 @@ public static class StaticData
     };
     public static List<string> level_stories = new List<string>
     {
-        "Long Spring Valley: A pond in foreset near the house.",
-        "Future Gadget Laboratory: A lab I used to work at. Without maintenance, most facilities there can no longer be used.",
-        "Black Dragon Harbor: An abandoned military base. A war happened there 8 years ago, where light nuclear weapons are first put into use.",
-        "State Lake: It was a beautiful place. Then nuclear explosion test happens and it becomes a desert. Years later it is a beautiful place again.",
-        "Upper Sea: Actually it is 'down' in the map. Piled up garbages hint me that someone is still alive on the other side of the sea, whether friend or enemy.",
+        "长春谷: 我的小屋附近的一处池塘。",
+        "未来道具研究所: 我曾经工作过的地方。年久失修，这里的大部分设施都已经没法用了。",
+        "黑龙港: 被遗弃的滨海军事基地。第一场投入使用轻型核武器的战争就发生在这里。",
+        "州湖: 它曾是个美丽的地方。然后一颗核弹在这里试爆，然后它变成了一片沙漠。多年之后它又恢复了美丽——但已不是以前那种美丽了。",
+        "前海: 实际上它位于岛的“后”方。被海浪冲上岸又堆积如山的生活垃圾提醒我海的那边还有人活着，无论是敌人还是朋友。",
     };
 
     public static int currentLevelIdx = 0;
@@ -128,7 +128,7 @@ public static class StaticData
     public static string getLevelStoryByLevelIdx(int levelIdx)
     {
         if(levelIdx == -2){
-          return "Home: The warmest place here. I belong to here. I love here.";
+          return "小屋: 岛上唯一温暖的地方。我属于这里。我爱这里。";
         }
         return level_stories[levelIdx];
     }

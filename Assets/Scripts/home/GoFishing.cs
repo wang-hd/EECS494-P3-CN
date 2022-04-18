@@ -16,7 +16,7 @@ public class GoFishing : MonoBehaviour
     {
         StaticData.usage = TransitionScreenUsage.to_customize;
         StaticData.nextScene = ("LevelSelection");
-        StaticData.message = ("Opening the door");
+        StaticData.message = ("开门...");
         SceneManager.LoadScene("transition");
     }
 }

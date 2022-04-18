@@ -390,7 +390,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -401,7 +401,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Start
+  m_Text: "\u5F00\u59CB"
 --- !u!222 &136997852
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -880,8 +880,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 70
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -892,7 +892,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Click to pull rod
+  m_Text: "\u70B9\u51FB\u9F20\u6807\u63D0\u8D77\u9C7C\u7AFF"
 --- !u!1 &582610898
 GameObject:
   m_ObjectHideFlags: 0
@@ -1253,7 +1253,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 70
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1263,8 +1263,8 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: "Don't\nlet \nbar\nfall\nto\nzero"
+    m_LineSpacing: 1.5
+  m_Text: "\u4E0D\u8981\u8BA9\u8FDB\u5EA6\u6761\u964D\u52300"
 --- !u!222 &743731406
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1843,8 +1843,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: 0}
-  m_SizeDelta: {x: 133.67004, y: 466.11}
+  m_AnchoredPosition: {x: 253.47742, y: 0}
+  m_SizeDelta: {x: 226.7152, y: 466.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1374104906
 CanvasRenderer:
@@ -1875,8 +1875,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 70
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 60
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -1886,8 +1886,8 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: Keep fish in
+    m_LineSpacing: 1.5
+  m_Text: "\u4F7F\u9C7C\n\u4FDD\u6301\u5728"
 --- !u!1 &1497132481
 GameObject:
   m_ObjectHideFlags: 0
@@ -2123,8 +2123,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2135,7 +2135,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Skip
+  m_Text: "\u8DF3\u8FC7\u6559\u7A0B"
 --- !u!222 &1599118873
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2336,7 +2336,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -2347,7 +2347,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Quit
+  m_Text: "\u9000\u51FA"
 --- !u!222 &1731649712
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2489,7 +2489,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
     m_FontSize: 70
     m_FontStyle: 0
     m_BestFit: 0
@@ -2501,7 +2501,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1.3
-  m_Text: "Welcome to \nStein's Fishing Tale"
+  m_Text: " Stein\u535A\u58EB\uFF0C\n\u4E16\u754C\u672B\u65E5\u548C\u9C7C"
 --- !u!222 &1912079964
 CanvasRenderer:
   m_ObjectHideFlags: 0

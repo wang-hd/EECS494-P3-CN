@@ -26,10 +26,10 @@ public class TaskController : MonoBehaviour
     Text FinishedTaskContent;
 
     string[,] TaskLists = {
-        {"Survive", "Catch your first fish.", "Change fish into fish bones at home.", "Be attacked by fish."},
-        {"Explore", "Upgrade the rod.", "Get 2 bombat in one day.", "Catch a Super Super Rare fish."},
-        {"Truth", "Collect more than 30 fish bones.","Survive over 9 days.", "Eat a fish to restore 10+ health."},
-        {"Conquer", "Catch a Yang Fish.", "Catch an Orca.", "Catch a Crocodile."},
+        {"生存", "钓上第一条鱼", "用操作台把鱼换成鱼骨", "被鱼攻击"},
+        {"探索", "解锁一个新鱼竿", "在一天之内钓上2条bombat", "钓上一条超超稀有的鱼"},
+        {"收获", "累计获得30个鱼骨","存活到第9天", "吃掉一条恢复10点以上生命的鱼"},
+        {"征服", "钓上一条Yang", "钓上一条Orca.", "钓上一条Crocodile."},
     };
 
     Subscription<update_task_event> update_task_sub;
@@ -97,7 +97,7 @@ public class TaskController : MonoBehaviour
         }
         if(task_num == 0)
         {
-            TodoTaskTextContent.text = "You have finished all of the tasks.";
+            TodoTaskTextContent.text = "你已经完成了所有的任务。";
         }
     }
 
@@ -122,7 +122,7 @@ public class TaskController : MonoBehaviour
         }
         if(task_num == 0)
         {
-            FinishedTaskContent.text = "You haven't finished any tasks yet.";
+            FinishedTaskContent.text = "你还没有已完成的任务。";
         }
     }
 
@@ -167,7 +167,7 @@ public class TaskController : MonoBehaviour
             {
                 StaticData.task_status[e.task - 1, 0] = true;
                 StaticData.story_progress++;
-                EventBus.Publish<ToastRequest>(new ToastRequest("Task completed...New story in diary unlocked.", 3.0f, false, false, true));
+                EventBus.Publish<ToastRequest>(new ToastRequest("任务完成...新故事碎片已解锁", 3.0f, false, false, true));
             }
             RefreshPanel();
         }

@@ -18,11 +18,11 @@ public class StoryController : MonoBehaviour
     List<Image> ImageForStory = new List<Image>();
 
     string[] StoryLists = {
-        "Research on the new type of nuclear reaction will soon come to an end. Colleagues from Engineering Department told me that home nuclear reactors is out of beta and will be released on time. Even though, exploring the truths of this universe is endless, and I will never stop.",
-        "I just found out that one of colleagues can no longer come because her neighborhood was bombed. Another test is postponed due to lack of labor. Damn. I can’t understand why people would rather spend time on meaningless conflicts than doing science.",
-        "10/26 Fishing\n10/27 Fishing\n10/30 Fishing\n11/6 Fishing aimlessly\n11/21 Fishing with increasing confusion and pain\n12/25 Fishing, but I still prefer science",
-        "3/12 Fishing, but I found the ruins of some science labs.\n3/17 I reconstructed some parts of the labs. Science prerequisites met, Test can be restarted. I don’t know how much longer I’ll have to be like this, but maybe my current state is already the best I can ask for.",
-        "I can’t see this once I realized that it is my research that ruins the world. If I could go back in time…If I have never published that research…Wait…I'm a scientist…I could really…"
+        "新型核反应二期试验已经接近尾声. 研发部的同事告诉我家用核反应堆已经完成beta测并且即将投入市场。虽说如此，探索科学的过程是无止境的，而且我也不会就此止步。",
+        "一个同事告诉我她住的街区遭到了爆炸的波及，她今天起不能来上班了。又一个实验因为人手不足被推迟了。该死。我不能理解为什么人们宁愿把时间花在毫无意义的争斗上，也不愿意来搞点科学。",
+        "10/26 钓鱼\n10/27 钓鱼\n10/30 钓鱼\n11/6 无意义地钓鱼\n11/21 还是钓鱼，但我感觉越来越痛苦和迷茫\n12/25 依然是钓鱼，要是能搞点科学实验就更好了",
+        "3/12 钓鱼，不过今天我发现了一处实验室的遗迹\n3/17 我找了些实验室里还能用的设备，这下又可以开始做实验了。不知道这样的日子还能持续多久，但也许这样的状态对我来说已经是一种奢侈。",
+        "我的实验...是世界毁灭的元凶？对这件事我无法再视而不见......如果时间重新来过...如果我从未发布过那些研究成果...如果..."
     };
 
 

@@ -112,8 +112,8 @@ public class PanelController : MonoBehaviour
     void _onRefreshDays(refresh_the_day e)
     {
         StaticData.has_open_panel = true;
-        DayAttack.GetComponent<Text>().text = $"Health You Lost: {health_lose}";
-        DayHunger.GetComponent<Text>().text = $"Energy You Lost: {hunger_lose}";
+        DayAttack.GetComponent<Text>().text = $"失去的生命: {health_lose}";
+        DayHunger.GetComponent<Text>().text = $"失去的能量: {hunger_lose}";
         foreach(FishData fish in fish_got)
         {
             GameObject tmp = Instantiate(indexPrefab[fish.getID()]);

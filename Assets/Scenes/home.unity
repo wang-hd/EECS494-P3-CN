@@ -1045,6 +1045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Turn fishes into fish bones
+  index_panel: 0
 --- !u!1 &168475802 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 659314010051727153, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
@@ -1551,11 +1552,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 5
     m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -1821,6 +1822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Fish bones you have
+  index_panel: 0
 --- !u!114 &378228452
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2011,6 +2013,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Health
+  index_panel: 0
 --- !u!114 &421346991
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2694,6 +2697,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: You could press this button to end this day and come home
+  index_panel: 0
 --- !u!114 &555325342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2909,8 +2913,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -2921,7 +2925,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cancel
+  m_Text: "\u53D6\u6D88"
 --- !u!222 &568458985
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3287,6 +3291,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 478879165}
     m_Modifications:
+    - target: {fileID: 659314008814796299, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
+      propertyPath: m_Text
+      value: "\u8FD4\u56DE"
+      objectReference: {fileID: 0}
+    - target: {fileID: 659314008814796299, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    - target: {fileID: 659314008814796299, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 659314009286989829, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3303,6 +3319,10 @@ PrefabInstance:
       propertyPath: Inventory
       value: 
       objectReference: {fileID: 8061727}
+    - target: {fileID: 659314009473285326, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
     - target: {fileID: 659314010051727152, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -3403,6 +3423,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 659314010056833902, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    - target: {fileID: 659314010094098249, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
     m_RemovedComponents:
     - {fileID: 659314009286989830, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: ce31493a7522341b8b1a0471e51c935e, type: 3}
@@ -3759,8 +3787,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -3771,7 +3799,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Confirm
+  m_Text: "\u786E\u8BA4"
 --- !u!222 &696628144
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3846,6 +3874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Start a new day of fishing
+  index_panel: 0
 --- !u!114 &734290007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4592,6 +4621,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Energy
+  index_panel: 0
 --- !u!114 &874050791
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4809,6 +4839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Bag
+  index_panel: 0
 --- !u!114 &889734358
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5168,8 +5199,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5180,7 +5211,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Cancel
+  m_Text: "\u53D6\u6D88"
 --- !u!222 &985607679
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5247,7 +5278,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -5644,8 +5675,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -5656,7 +5687,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Confirm
+  m_Text: "\u786E\u8BA4"
 --- !u!222 &1165570230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6430,11 +6461,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 4
+    m_MinSize: 3
     m_MaxSize: 60
     m_Alignment: 0
     m_AlignByGeometry: 0
@@ -6468,8 +6499,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -237.51938}
-  m_SizeDelta: {x: 1000, y: 100}
+  m_AnchoredPosition: {x: 0, y: -237.49998}
+  m_SizeDelta: {x: 1000, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1390594854
 GameObject:
@@ -6529,8 +6560,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -6557,6 +6588,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 963835876627872734, guid: 494f8cc0bca184a83b1cbabf25219a32, type: 3}
+      propertyPath: m_Text
+      value: "\u786E\u5B9A\u8981\u9000\u51FA\u5417\uFF1F"
+      objectReference: {fileID: 0}
+    - target: {fileID: 963835876627872734, guid: 494f8cc0bca184a83b1cbabf25219a32, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
     - target: {fileID: 963835877337017038, guid: 494f8cc0bca184a83b1cbabf25219a32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -6669,6 +6708,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 963835877788049326, guid: 494f8cc0bca184a83b1cbabf25219a32, type: 3}
+      propertyPath: m_Text
+      value: "\u53D6\u6D88"
+      objectReference: {fileID: 0}
+    - target: {fileID: 963835877788049326, guid: 494f8cc0bca184a83b1cbabf25219a32, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 494f8cc0bca184a83b1cbabf25219a32, type: 3}
 --- !u!1 &1422524480 stripped
@@ -7232,11 +7279,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 5
     m_MaxSize: 72
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -7244,7 +7291,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Worktop
+  m_Text: "\u64CD\u4F5C\u53F0"
 --- !u!222 &1595899117
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7427,6 +7474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Check information of fishes
+  index_panel: 0
 --- !u!1 &1644668622
 GameObject:
   m_ObjectHideFlags: 0
@@ -7881,8 +7929,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 4
@@ -7893,7 +7941,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dispose unwanted fish to get bones.
+  m_Text: "\u628A\u4E0D\u5403\u7684\u9C7C\u6362\u6210\u9C7C\u9AA8\u3002"
 --- !u!222 &1709715962
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7960,8 +8008,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 413ecb3e7c9de674bbd9a848bb6fdee4, type: 3}
-    m_FontSize: 36
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
@@ -7972,7 +8020,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Go Fishing
+  m_Text: "\u51FA\u95E8\u9493\u9C7C"
 --- !u!222 &1712774225
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8497,6 +8545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Total weight of fish in bag
+  index_panel: 0
 --- !u!222 &1744090686
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8866,6 +8915,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Update rods with fish bones
+  index_panel: 0
 --- !u!1 &1805473575
 GameObject:
   m_ObjectHideFlags: 0
@@ -9207,6 +9257,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Bag
+  index_panel: 0
 --- !u!1001 &1824670251
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9214,6 +9265,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1234357366, guid: a367c5a8b0fab384b95ffdf856a52ab8, type: 3}
+      propertyPath: m_Text
+      value: "\u65B0\u6545\u4E8B\u5DF2\u89E3\u9501"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1234357366, guid: a367c5a8b0fab384b95ffdf856a52ab8, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    - target: {fileID: 1234357366, guid: a367c5a8b0fab384b95ffdf856a52ab8, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 4007728200553866829, guid: a367c5a8b0fab384b95ffdf856a52ab8, type: 3}
       propertyPath: m_Enabled
       value: 0
@@ -9222,6 +9285,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8457686918833241268, guid: a367c5a8b0fab384b95ffdf856a52ab8, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
     - target: {fileID: 9144111117250806670, guid: a367c5a8b0fab384b95ffdf856a52ab8, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -9330,11 +9397,11 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 60
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 6
+    m_MinSize: 5
     m_MaxSize: 300
     m_Alignment: 4
     m_AlignByGeometry: 0
@@ -9342,7 +9409,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Craftable
+  m_Text: "\u5DE5\u5177\u53F0"
 --- !u!222 &1843837813
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9482,6 +9549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Instruction: Days you survived
+  index_panel: 0
 --- !u!114 &1905197677
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10302,8 +10370,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 413ecb3e7c9de674bbd9a848bb6fdee4, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -10314,7 +10382,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Come Home
+  m_Text: "\u56DE\u5BB6"
 --- !u!222 &2085724158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10699,8 +10767,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 45
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 40
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -10807,8 +10875,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 5ab08cd3a9d98704db25c2ea4b977bee, type: 3}
-    m_FontSize: 80
+    m_Font: {fileID: 12800000, guid: ff049d3bd567d384c9d1bb3227860032, type: 3}
+    m_FontSize: 70
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0

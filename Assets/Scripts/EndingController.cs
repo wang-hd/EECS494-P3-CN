@@ -74,27 +74,27 @@ public class EndingController : MonoBehaviour
         ending_text.SetActive(true);
         second_text.SetActive(true);
 
-        subtitle.text = "Well, living such a life isn't bad at all.";
+        subtitle.text = "好吧，这种生活倒也不坏。";
         second_subtitle.text = "";
         yield return new WaitForSeconds(2f);
 
         subtitle.text = "";
         yield return new WaitForSeconds(1f);
 
-        subtitle.text = "I finally decided to spend rest of my life on that island,";
+        subtitle.text = "我最后还是决定余生都在那座小岛上度过，";
         yield return new WaitForSeconds(2f);
 
         subtitle.text = "";
         yield return new WaitForSeconds(1f);
 
-        subtitle.text = "And we don't talk about nuclear or wars any more.";
+        subtitle.text = "并且再也不去想什么核武器，什么核战争了。";
         yield return new WaitForSeconds(3f);
 
         subtitle.text = "";
         yield return new WaitForSeconds(2f);
 
         subtitle.text = "Normal Ending:\n\n\n";
-        second_subtitle.text = "Endless Fishing Tale";
+        second_subtitle.text = "没有尽头的钓鱼物语";
         subtitle.color = new Color32(81, 171, 71, 255);
         second_subtitle.color = new Color32(81, 171, 71, 255);
         yield return new WaitForSeconds(3f);
@@ -115,7 +115,7 @@ public class EndingController : MonoBehaviour
         second_text.SetActive(true);
         AudioSource.PlayClipAtPoint(bgm_true, Camera.main.transform.position);
 
-        subtitle.text = "2034 A.D.\nScientists estimated that all energy sources on earth would be exhausted after 200 years. The Energy Crisis starts.";
+        subtitle.text = "2034 A.D.\n科学家们宣布地球上所有的能源仅能最后维持200年左右的人类活动。能源危机由此开始。";
         second_subtitle.text = "";
         item.SetActive(true);
         item.GetComponent<Image>().sprite = items[0];
@@ -125,7 +125,7 @@ public class EndingController : MonoBehaviour
         item.SetActive(false);
         yield return new WaitForSeconds(1f);
 
-        subtitle.text = "2042 A.D.\nDr. Stein developed a new nuclear reaction, and greatly reduced the cost of nuclear usage. Wide use of nuclear energy gives people hope of surviving the Energy Crisis, and in the same year Dr. Steins is awarded Belno Prize.";
+        subtitle.text = "2042 A.D.\nStein博士提出新的核反应公式，大幅降低了核能的利用成本，廉价的核能让人类看到了生存下去的希望，同年Stein博士获贝诺尔物理学奖。";
         item.SetActive(true);
         item.GetComponent<Image>().sprite = items[1];
         yield return new WaitForSeconds(10f);
@@ -134,7 +134,7 @@ public class EndingController : MonoBehaviour
         item.SetActive(false);
         yield return new WaitForSeconds(1f);
 
-        subtitle.text = "2050 A.D.\nEasy-to-operate, high-efficiency nuclear reactors have become extremely popular. Now every family has their own family nuclear reactors.";
+        subtitle.text = "2048 A.D.\n便携、易用、高效的核能已全面普及，每个家庭都拥有了自己的核反应堆能源站";
         item.SetActive(true);
         item.GetComponent<Image>().sprite = items[2];
         yield return new WaitForSeconds(8f);
@@ -143,7 +143,7 @@ public class EndingController : MonoBehaviour
         item.SetActive(false);
         yield return new WaitForSeconds(1f);
 
-        subtitle.text = "2058 A.D.\nWith the end of the Energy Crisis, humans turn to conflicts of territories. Cheap but fatal nuclear weapons bloom and flourish in wars, and wipe out 80% of the world population.";
+        subtitle.text = "2050 A.D.\n随着能源危机的结束，解决了危机的人类把注意转向了抢夺领土。便宜危险的核武器在战争中大放异彩，消灭了世界80%的人口";
         item.SetActive(true);
         item.GetComponent<Image>().sprite = items[3];
         yield return new WaitForSeconds(10f);
@@ -152,7 +152,7 @@ public class EndingController : MonoBehaviour
         item.SetActive(false);
         yield return new WaitForSeconds(1f);
 
-        subtitle.text = "2066 A.D.\nDr. Steins disappeared from public view. Only himself know he starts a new life on a island full of fishes.";
+        subtitle.text = "2052 A.D.\nSteins博士从公众视野中消失了。只有他自己知道，他在一个有很多鱼的小岛上开始了一段新生活。";
         item.SetActive(true);
         item.GetComponent<Image>().sprite = items[4];
         yield return new WaitForSeconds(6f);
@@ -162,7 +162,7 @@ public class EndingController : MonoBehaviour
         yield return new WaitForSeconds(2.5f);
 
         subtitle.text = "True Ending:\n\n\n";
-        second_subtitle.text = "This Nuclear War of Mine";
+        second_subtitle.text = "这是我的核战争";
         item.SetActive(false);
         subtitle.color = new Color32(81, 171, 71, 255);
         second_subtitle.color = new Color32(81, 171, 71, 255);
@@ -186,7 +186,7 @@ public class EndingController : MonoBehaviour
         Vector3 end_pos = init_pos;
         end_pos.y += 2300;
 
-        second_subtitle.text = "Stein's Fishing Tale\n\n";
+        second_subtitle.text = "Stein博士，\n世界末日和鱼\n\n";
         subtitle.text = "A game by loIs studio";
         yield return new WaitForSeconds(2f);
         Vector3 text_1_init_pos = ending_text.transform.position;
