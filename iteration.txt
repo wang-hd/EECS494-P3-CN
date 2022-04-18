@@ -1,0 +1,15 @@
+One major feedback we received from Playtests is that our game is not interesting. Therefore, we made two major changes to our game: adding a task system and giving player some control on which fish they'll end up getting.
+
+The task system is added so the player will have specific tasks to accomplish. This task system also helps the player to explore functionalities of our game, such as backpack, home, new fish and new scenes. Every after the player finish one task, a new scene and a new story script could be unlocked for the player to explore.
+
+The fishing Minigame now contains 5 different fish compared to the 1 fish from before. Having 5 fish in the minigame at the same time will give player some control over which fish they will end up getting. Some fish is harder to catch than others, and the player will be rewarded for catching harder fish.
+
+Two new scenes have been added to make the game more interesting. Different fish will be present at different scenes, so some tasks can only be accomplished by player visiting other scenes. 
+
+Craftable at home will now allow the player to get different Fishing Rod to make it easier for catching fish that are smaller in size. We removed the game mechanic that player needs to cook the fish they caught based on the feedback from Playtests. Now players can trade fish for currency (fishBones). This currency can be used to upgrade for better fishing rods.
+
+We also added more background story and included a Fish Info panel for each fish. A fish Collection is also made to inform players of different types of fish there are in this game.
+
+A fishing tutorial is also added to teach players how to play the fishing game.
+
+We also added animations and more aethetics to the fishing minigame as well as individual fish. Now we added a name, story and size for each fish.

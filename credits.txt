@@ -1,0 +1,49 @@
+How to make a HEALTH BAR in Unity! - Brackeys - https://www.youtube.com/watch?v=BLfNP4Sc_iA
+
+https://stackoverflow.com/questions/42179789/unity-pass-parameters-on-instantiation
+
+Simple Inventory System in Unity (Store, Use, Stack and Drop Items)
+https://www.youtube.com/watch?v=2WnAOV7nHW0
+
+Free Ui Pack from unity asset store
+https://assetstore.unity.com/packages/2d/gui/icons/free-ui-pack-170878
+
+Unity-Mario-World-Level-Select - Abban
+https://github.com/Abban/Unity-Mario-World-Level-Select
+
+Level Map Pixel Art - CraftPix.net 2D Game Assets
+https://opengameart.org/content/level-map-pixel-art
+
+All Sound Effects from Zapsplat.com
+https://www.zapsplat.com/music/bubble-blown-into-water-in-plastic-container-through-plastic-tube-2/
+
+Fishing background music: Pixel Confusion by Ionics Music
+https://www.melodyloops.com/instruments/8-bit/
+
+Home background music: Ghost Dance by Kevin MacLeod | https://incompetech.com/
+Music promoted by https://www.chosic.com/free-music/all/
+Creative Commons CC BY 3.0
+https://creativecommons.org/licenses/by/3.0/
+
+https://leetcode-cn.com/problems/random-pick-with-weight/solution/an-quan-zhong-sui-ji-xuan-ze-by-leetcode-h13t/
+
+http://fungamesprogrammer.blogspot.com/2012/02/calculate-velocity-of-non-rigidbodies.html
+
+https://images-na.ssl-images-amazon.com/images/S/pv-target-images/1c3645f2a7b84c6348b471404c7de0e349046f8255252951ffdcf5e8dc2fe76b._UY500_UX667_RI_V_TTW_.jpg
+
+https://www.warhistoryonline.com/wp-content/uploads/2016/05/untitled-design-37-1.jpg
+
+https://i.redd.it/8n2e9w8det121.jpg
+
+Background image (photo source):
+https://www.ucl.ac.uk/news/sites/news/files/heydon_pond_96-hey96_after_restoration_june_2018_8x5.jpg
+https://image.shutterstock.com/image-photo/city-aleppo-destroyed-building-syria-260nw-1386296378.jpg
+https://images-na.ssl-images-amazon.com/images/S/pv-target-images/1c3645f2a7b84c6348b471404c7de0e349046f8255252951ffdcf5e8dc2fe76b._UY500_UX667_RI_V_TTW_.jpg
+https://www.warhistoryonline.com/wp-content/uploads/sites/64/2016/05/untitled-design-37-1.jpg
+https://www.anothermag.com/design-living/9549/the-cosmic-pink-lakes-of-the-tunisian-desert
+https://www.ecowatch.com/beach-litter-plastics-ocean-conservancy-2581760475.html
+
+Special item reference:
+https://fallout.fandom.com/wiki/Vault_Boy
+https://en.wikipedia.org/wiki/Nobel_Prize
+https://en.wikipedia.org/wiki/Pioneer_plaque
